@@ -24,8 +24,8 @@
 
         <div class="navbar"> 
             
-            <button onclick="showLab()" id="lab_button">Practical's</button>
             <button onclick="showLec()" id="lec_button">Lecture</button>
+            <button onclick="showLab()" id="lab_button">Practical's</button>
 
         </div>
 
@@ -116,6 +116,42 @@
                
             </table>
         </div> 
+
+        <div class="detail" id="lec">
+            <table>
+                <tr>
+                    <td> 1 </td>
+                    <td> Create a webpage that contain table of employee's details.</td>
+                    <td><a href="projects/replica/repl.html" target="_blank" > View </a></td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> JavaScript program to change color of bulb by clicking button. </td>
+                    <td><a href="projects/light_bulb/Bulb.html" target="_blank"> View </a></td>
+                </tr>
+                <tr>
+                    <td> 3 </td>
+                    <td> map of india with all state info. </td>
+                    <td><a href="projects/india map/index.html" target="_blank"> View </a></td>
+                </tr>
+                <tr>
+                    <td> 4 </td>
+                    <td> create dice gamei </td>
+                    <td><a href="projects/dice/dice.html" target="_blank"> View </a></td>
+                </tr>
+                <tr>
+                    <td> 5 </td>
+                    <td> Draw a different type of shapes using HTML. </td>
+                    <td><a href="projects/shape/index.html" target="_blank"> View </a></td>
+                </tr>
+                <tr>
+                    <td> 6 </td>
+                    <td> Draw a different type of table using HTML. </td>
+                    <td><a href="projects/Table/table.html" target="_blank"> View </a></td>
+                </tr>
+            </table>
+        </div>
+      
     </section>
 
     <footer>
@@ -132,7 +168,7 @@
         function showLec() {
             document.getElementById("lec").style.display = "block";
             document.getElementById("lab").style.display = "none";
-            document.getElementById("lec_button").style.backgroundColor = "#a70808";
+            document.getElementById("lec_button").style.backgroundColor = "powderblue";
             document.getElementById("lab_button").style.backgroundColor = "#154360";
 
         }
@@ -140,7 +176,7 @@
             document.getElementById("lab").style.display = "block";
             document.getElementById("lec").style.display = "none";
             document.getElementById("lec_button").style.backgroundColor = "#154360";
-            document.getElementById("lab_button").style.backgroundColor = "#a70808";
+            document.getElementById("lab_button").style.backgroundColor = "powderblue";
         }
 
         
